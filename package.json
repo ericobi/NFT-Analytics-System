@@ -1,0 +1,30 @@
+{
+  "name": "bondly-nft-analytics",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "classnames": "^2.2.6",
+    "coingecko-api": "^1.0.10",
+    "ethers": "^5.0.21",
+    "lodash": "^4.17.20",
+    "next": "^9.4.2",
+    "opensea-js": "^1.1.10",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "use-wallet": "^0.8.0",
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6"
+  }
+}
